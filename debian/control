@@ -1,0 +1,14 @@
+Source: libwsdl4j-java-maven
+Section: utils
+Priority: optional
+Maintainer: Yury Zavarin <yzavarin@ebi.ac.uk>
+Build-Depends:
+ debhelper (>= 9),
+ dh-usj-maven,
+
+Package: libwsdl4j-java-maven
+Architecture: all
+Depends:
+ ${misc:Depends},
+ libwsdl4j-java (= 1.6.3-2),
+Description: jars from libwsdl4j-java installed into local maven repo

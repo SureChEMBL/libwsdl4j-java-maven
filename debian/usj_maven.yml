@@ -1,0 +1,10 @@
+package: libwsdl4j-java-maven
+
+artifacts:
+  - group_id: wsdl4j
+    artifact_id: wsdl4j
+
+  - group_id: wsdl4j
+    artifact_id: wsdl4j-qname
+    jar: qname.jar
+
